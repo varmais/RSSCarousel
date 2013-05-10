@@ -1,10 +1,9 @@
 (function($){
-	$.fn.RSSCarousel = function() {
+	$.fn.RSSCarousel = function(fade) {
 
 		var slides = $('#rss-images').children();
 		var amount = slides.length;
 		var i = 0;
-		var fade = 2000;
 
 		var next = function() {
 			$(slides[i]).fadeOut(fade);
