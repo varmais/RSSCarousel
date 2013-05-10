@@ -1,29 +1,28 @@
+#rss-container {
+	margin: 0 auto;
+	width: 725px;
+	height: 544px;
+}
+
 #rss-images {
 	width: 100%;
-	min-height: 360px;
+	height: 100%;
 	overflow: hidden;
-	position:relative;
+	position: relative;
 	list-style: none outside none;
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 }
 
 #rss-images li {
 	position: absolute;
-	width: 100%;
 	top: 0px;
 	left: 0px;
-	display:none;
+	display: none;
 }
 
 #rss-images li:first-child {
-	display:block;
-}
-
-#rss-images li img {
-	width: 96%;
-	border-radius: 4px;
-	margin-bottom: 25px;
+	display: block;
 }
 
 #rss-next, #rss-previous {
@@ -42,5 +41,6 @@
 }
 
 #rss-next {
-	right: 53%;
+	right: 5px;
+	left: auto;
 }

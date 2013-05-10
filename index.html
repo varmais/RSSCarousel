@@ -1,23 +1,23 @@
 <html>
 <head><title>RSSCarousel demo</title>
-
+<link rel="stylesheet" type="text/css" href="jquery.RSSCarousel-0.1.css" />
 </head>
+
 <body>
 	<div id="rss-container">
 		<ul id="rss-images">
-
-
+			<li><img src="examples/pic1.jpg" /></li>
+			<li><img src="examples/pic2.jpg" /></li>
+			<li><img src="examples/pic3.jpg" /></li>
 		</ul>
-		<div id="dialog-next"></div>
-		<div id="dialog-previous"></div>
+		<div id="rss-next" class="rss-controll"></div>
+		<div id="rss-previous" class="rss-controll"></div>
 	</div>
-
-</div>
 <script src="jquery.js"></script>
 <script src="jquery.RSSCarousel-0.1.js"></script>
 <script>
 $(document).ready(function() {
-
+	$('#rss-images').RSSCarousel();
 });
 </script>
 </body>
