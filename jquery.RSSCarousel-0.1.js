@@ -1,3 +1,13 @@
+/*
+ * Really Simple and Stupid Carousel Plugin for jQuery
+ *
+ * Version 0.1
+ *
+ * Copyright 2013, Teemu Tiilikainen
+ * Licensed under the Do What The Fuck You Want To Public License.
+ *
+*/
+
 (function($){
 	$.fn.RSSCarousel = function(fade) {
 
