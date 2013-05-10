@@ -1,0 +1,46 @@
+#rss-images {
+	width: 100%;
+	min-height: 360px;
+	overflow: hidden;
+	position:relative;
+	list-style: none outside none;
+	padding:0;
+	margin:0;
+}
+
+#rss-images li {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	display:none;
+}
+
+#rss-images li:first-child {
+	display:block;
+}
+
+#rss-images li img {
+	width: 96%;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+#rss-next, #rss-previous {
+	position: absolute;
+	top: 0px;
+	width: 75px;
+	height: 100%;
+	opacity: 0.4;
+}
+
+#rss-previous{
+	background: url(img/right-arrow.png) no-repeat 50% 50%;
+}
+#rss-previous:hover {
+	background: url(img/left-arrow.png) no-repeat 50% 50%;
+}
+
+#rss-next {
+	right: 53%;
+}
