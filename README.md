@@ -2,7 +2,9 @@
 
 Really Simple and Stupid Carousel jQuery plugin. This plugin does not brag with options and features.  
 
-RSSCarousel uses overlays to switch slides.
+RSSCarousel uses overlays to switch slides.  
+
+Demo: http://imari.varmais.fi/rsscarousel/
 
 ### Get Started
 
