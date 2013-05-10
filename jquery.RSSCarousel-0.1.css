@@ -2,6 +2,7 @@
 	margin: 0 auto;
 	width: 725px;
 	height: 544px;
+	position: relative;
 }
 
 #rss-images {
@@ -25,22 +26,20 @@
 	display: block;
 }
 
-#rss-next, #rss-previous {
-	position: absolute;
-	top: 0px;
-	width: 75px;
-	height: 100%;
-	opacity: 0.4;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
 }
 
-#rss-previous{
-	background: url(img/right-arrow.png) no-repeat 50% 50%;
-}
-#rss-previous:hover {
-	background: url(img/left-arrow.png) no-repeat 50% 50%;
+.right {
+	left: 50%;
+	width: 50%;
 }
 
-#rss-next {
-	right: 5px;
-	left: auto;
+.left {
+	width: 50%;
 }
