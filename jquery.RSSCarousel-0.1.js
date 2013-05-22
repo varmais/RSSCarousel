@@ -30,8 +30,8 @@
 		if(amount > 1){
 			$('#rss-next').show();
 			$('#rss-previous').show();
-			document.getElementById('rss-next').addEventListener('click', next);
-			document.getElementById('rss-previous').addEventListener('click', previous);
+			$('#rss-next').on('click', next);
+			$('#rss-previous').on('click', previous);
 		} else {
 			$('#rss-next').hide();
 			$('#rss-previous').hide();
